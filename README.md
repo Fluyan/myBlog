@@ -1,21 +1,28 @@
-#Vue项目初始化安装 
+#Vue项目初始化安装
+
     1.安装vue-cli
         npm install -g vue-cli
+
     2.初始化项目
         vue init webpack my-project
+
     3.进入项目
         cd my-project
+
     4.安装依赖
         npm install
+
     5.启动项目
         npm run dev
 
 #项目目录结构
+
     index.html：项目根视图
     .postcssrc.js：postcss配置文件
     static：静态文件目录
 
 #Vue基础
+
     Vue组件：
         包含三个部分：
             template：视图
